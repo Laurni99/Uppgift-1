@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klient och server</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1 id="bb1">Datakommunikation och webbadresser</h1>
+    <img src="Bilder/Client-server-model.svg.png" alt="client" width="400" height="200">
+    <h2>Vad avses med termerna klient och server?</h2>
+    <p><b><i>Klient</i></b> kan vara allt från Firefox, Safari och Google Chrome. <b><i>Servern</i></b> är datorer fyllda med information. Klient och servern fungerar genom att klienten skriver in en webbadress (även kallad för URL) på webbläsaren. Därefter skickas signaler genom internet till servern, som är en lagringsplats fylld av webbplatser. Servern skickar sedan tillgång till webbadressen som klienten har begärt.</p>
+
+    <h2>Beskriv vad var och en av protokollen TCP och IP gör på sändande och mottagande sida.</h2>
+    <p><b><i>TCP (Transmission Control Protocol)</i></b> samt <b><i>IP (Internet Protocol)</i></b> är en samling av regler om hur datorer ska kunna kommunicera på internet. De är uppdelade i 4 delar som jag kallar för "ATNP" (application, transportation, network, physical). På sändande sida så delas datan upp i flera olika bitar och som sedan blir sorterad och numrerade. TCP kontrollerar så att alla delar kommer fram i bra skick, om det skulle vara så att vissa delar av datan skulle saknas kommer det att skickas om.</p>
+
+    <h2>Beskriv de delar som följande URL består av:</h2>
+    <p class="speciel"> - <b><i>HTTP</i></b> är protokollet som används</p>
+    <p> - <b><i>webbteknik.abc.se</i></b> är den del av webbadressen som berättar vilken server vi ska prata med.</p>
+    <p> - <b><i>/kurs1/uppg/u1.html</i></b> är sökvägen som liknar att gå igenom mappar på datorn.</p>
+    <p> - <b><i>#fragor</i></b> är en precis plats på webbplatsen jag hamnar på när jag klickar på länken.</p>
+    <p> - <b><i>8082</i></b> är numret till servern.</p>
+
+    <nav>
+    <a href="/index.html">1</a> |
+    <a href="/Page2.html">2</a> |
+    <a href="/Page3.html">3</a> |
+  </nav> 
+<footer>
+    &copy; Designed by Laurni Diamuangana 2023
+</footer>
+</body>
+
+</html>
